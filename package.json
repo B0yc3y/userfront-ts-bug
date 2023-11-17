@@ -1,0 +1,26 @@
+{
+  "name": "userfront-ts-bug",
+  "version": "1.0.0",
+  "description": "A demo project to show the type issues in userfront/core",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B0yc3y/userfront-ts-bug.git"
+  },
+  "author": "B0yc3y <https://github.com/B0yc3y>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B0yc3y/userfront-ts-bug/issues"
+  },
+  "homepage": "https://github.com/B0yc3y/userfront-ts-bug#readme",
+  "dependencies": {
+    "@userfront/core": "^0.6.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "strict": true,
+      "outDir": "./dist",
+      "target": "ES2021", // recommended target for node16+esm
+      "module": "esnext",
+      "sourceMap": true,
+      "allowJs": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "strictPropertyInitialization": false,
+      "resolveJsonModule": true
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "dist"]
+}
